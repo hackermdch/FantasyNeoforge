@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.hackermdch.fantasy.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "fantasy.refmap.json",
+  "mixins": [
+    "ChunkMapMixin",
+    "ServerChunkCacheMixin",
+    "ServerLevelMixin",
+    "registry.LevelStemMixin",
+    "registry.MappedRegistryMixin",
+    "registry.WorldGenSettingsMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
